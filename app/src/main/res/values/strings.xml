@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DangerousMultiCatch</string>
+    <string name="test_text">Press the button below to test the catch block with multiple exception types.</string>
+    <string name="text_button">TEST</string>
+</resources>
