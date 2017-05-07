@@ -21,10 +21,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 try {
                     throwRandomException();
-                } catch (NoSuchFieldException e) {
-                    e.printStackTrace();
-                    Snackbar.make(testButton, "Exception caught", Snackbar.LENGTH_LONG).show();
-                } catch (NoSuchMethodException e) {
+                } catch (NoSuchFieldException | NoSuchMethodException e) {
                     e.printStackTrace();
                     Snackbar.make(testButton, "Exception caught", Snackbar.LENGTH_LONG).show();
                 }
